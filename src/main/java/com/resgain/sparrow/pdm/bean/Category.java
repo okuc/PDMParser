@@ -31,7 +31,7 @@ public class Category
 	private String code; //PDM代码
 	private String author; //作者
 	
-	private List<Table> tableList = new ArrayList<>();
+	private List<Table> tableList = new ArrayList<Table>();
 
 	public Category(String name, String code, String author) {
 		super();
